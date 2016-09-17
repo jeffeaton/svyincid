@@ -1,0 +1,15 @@
+Package: svyincid
+Title: Incidence estimates from recent infection assays in household surveys
+Version: 0.0.9
+Authors@R: person("Jeff", "Eaton", email = "jeffrey.eaton@imperial.ac.uk", role = c("aut", "cre"))
+Description: Extends the 'survey' package to provides functions to estimate incidence and
+    prevalence from the results of assay-based recent infection testing algorithms
+    (RITA) measured in complex household surveys, with standard errors estimated via
+    Taylor Linearization. The incidence estimator is proposed by Kassanjee et al.
+    (2012) and uncertainty about mean duration of recent infection (MDRI) and false
+    recency rate (FRR) follow the heuristic approach proposed by Kassanjee et al.
+Depends: R (>= 3.1.0),
+    survey
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
